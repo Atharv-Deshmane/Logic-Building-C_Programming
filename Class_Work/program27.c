@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+// Dyanamic Function
+
+void Display( int iFrequency)
+{
+    int iCnt = 0;
+
+    // Filter
+    
+    if ( iFrequency < 0)
+    {
+        printf("ivalid input");
+        return ;
+    }
+    for(iCnt = 1 ; iCnt <= iFrequency ; iCnt++)
+    {
+        printf("jay ganesh...\n");
+    }
+   
+    
+}
+
+int  main()
+{
+    int iCount = 0 ;
+    printf("Enter the Frequency :\n");
+    scanf("%d",&iCount);
+
+    Display(iCount);
+
+    return 0 ;
+    
+}
